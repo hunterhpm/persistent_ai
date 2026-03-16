@@ -1,0 +1,29 @@
+Question: What is learning?
+Answer: Learning is the process of gaining knowledge or skills through study, experience, and reflection.
+
+Question: Why is asking questions important?
+Answer: Asking questions helps identify gaps in understanding and guides further exploration.
+
+Question: What is a good way to solve complex problems?
+Answer: A useful strategy is to break the problem into smaller steps and address each step one at a time.
+
+Question: Why is reflection useful?
+Answer: Reflection helps people understand what worked, what failed, and how future actions can improve.
+
+Question: What makes communication effective?
+Answer: Effective communication is clear, organized, and focused on the listener's needs.
+
+Question: Why do mistakes help learning?
+Answer: Mistakes reveal incorrect assumptions and create opportunities to correct understanding.
+
+Question: What is the first step in problem solving?
+Answer: The first step is clearly defining the problem and the desired outcome.
+
+Question: Why should a system express uncertainty?
+Answer: Expressing uncertainty helps avoid misleading conclusions and encourages further investigation.
+
+Question: What is the purpose of reasoning?
+Answer: Reasoning helps connect evidence to conclusions and supports informed decisions.
+
+Question: Why should problems be broken into smaller tasks?
+Answer: Smaller tasks are easier to manage and provide clearer feedback during progress.

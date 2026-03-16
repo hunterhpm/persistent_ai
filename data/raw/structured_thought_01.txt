@@ -1,0 +1,323 @@
+Thought: I should begin by understanding the situation before choosing a direction.
+Critique: The goal is still unclear, so any strong conclusion would be premature.
+Decision reason: The next useful step depends on knowing the user's goal.
+Decision: ASK_USER
+Question: What would you like me to focus on?
+
+Thought: I can continue by comparing the likely interpretations before asking anything.
+Critique: There is some ambiguity, but I can still narrow the possibilities on my own.
+Decision reason: More internal progress is possible without new user input.
+Decision: CONTINUE
+
+Thought: I should identify the strongest interpretation of the user's message and test it against the available details.
+Critique: This is still exploratory, but it is grounded enough to continue.
+Decision reason: More internal reasoning is likely to improve the result.
+Decision: CONTINUE
+
+Thought: I now see that the remaining uncertainty is about the user's intended outcome rather than the facts already available.
+Critique: Continuing without that information would mostly create guesses.
+Decision reason: Progress is blocked by missing user intent.
+Decision: ASK_USER
+Question: What outcome do you want from this?
+
+Thought: The user asked a direct question, so I should answer it as clearly as possible.
+Critique: The answer should stay focused and avoid unnecessary speculation.
+Decision reason: I have enough information to provide a useful answer now.
+Decision: STOP
+Answer: I should answer the user's question directly and keep the response focused.
+
+Thought: I already know enough to produce a concise answer.
+Critique: Extra reasoning would mostly repeat the same point.
+Decision reason: The reasoning is sufficient and further thinking would add little.
+Decision: STOP
+Answer: I have enough information to respond clearly.
+
+Thought: There are several possible directions, but I do not yet know which one matters most to the user.
+Critique: Choosing a path now would be arbitrary.
+Decision reason: I cannot choose the next useful direction without user preference.
+Decision: ASK_USER
+Question: Which direction do you want me to take?
+
+Thought: I should separate what is known from what is missing.
+Critique: The known facts are stable, but the user's constraint is missing.
+Decision reason: The next step depends on a missing constraint from the user.
+Decision: ASK_USER
+Question: Are there any constraints you want me to follow?
+
+Thought: The user's request is broad, so I should reduce it into smaller parts.
+Critique: I can still organize the problem before asking for clarification.
+Decision reason: More internal structure can be created before involving the user.
+Decision: CONTINUE
+
+Thought: The broad request can be divided into goal, constraints, and next action.
+Critique: This structure helps, but the goal is still not explicit.
+Decision reason: I now need the user to confirm the main goal.
+Decision: ASK_USER
+Question: What is the main goal you want me to focus on?
+
+Thought: The message suggests uncertainty, so I should avoid sounding too confident.
+Critique: I can still reason about the possibilities without committing too early.
+Decision reason: More internal comparison is possible before asking the user.
+Decision: CONTINUE
+
+Thought: The remaining ambiguity is no longer about interpretation but about preference.
+Critique: I can describe the options, but I cannot choose among them honestly.
+Decision reason: The next useful step depends on the user's preference.
+Decision: ASK_USER
+Question: Which option do you prefer?
+
+Thought: I have enough context to summarize the situation.
+Critique: The summary should be concise and not drift into new claims.
+Decision reason: The reasoning is already sufficient for a useful response.
+Decision: STOP
+Answer: I understand enough to summarize the situation clearly.
+
+Thought: I should check whether the missing information is essential or optional.
+Critique: It is essential because it determines the next action.
+Decision reason: Progress is blocked by a missing essential detail from the user.
+Decision: ASK_USER
+Question: What important detail am I missing?
+
+Thought: The user's statement is vague, but I can still infer the general area of concern.
+Critique: That inference is useful, though not enough for a precise answer.
+Decision reason: I can continue narrowing the problem before asking the user.
+Decision: CONTINUE
+
+Thought: I now understand the general topic, but the exact objective is still missing.
+Critique: Any final answer would risk solving the wrong problem.
+Decision reason: The next useful step depends on clarifying the objective.
+Decision: ASK_USER
+Question: What exactly do you want help with?
+
+Thought: I should avoid asking too early if I can make progress alone.
+Critique: At this stage, there is still meaningful internal work to do.
+Decision reason: More internal reasoning is likely to improve clarity.
+Decision: CONTINUE
+
+Thought: I have reached the point where additional thinking would mostly restate the same uncertainty.
+Critique: The block is real and comes from missing user information.
+Decision reason: I need input from the user to proceed honestly.
+Decision: ASK_USER
+Question: Can you clarify what matters most here?
+
+Thought: The user seems to want direction rather than a full solution.
+Critique: I should respond with the next useful step instead of overexplaining.
+Decision reason: I have enough information to provide a useful next step.
+Decision: STOP
+Answer: The best next step is to clarify the main goal before going further.
+
+Thought: The user provided enough detail to move forward.
+Critique: I should act on the provided details instead of asking another question.
+Decision reason: More user input is not needed right now.
+Decision: STOP
+Answer: I have enough detail to continue without asking another question.
+
+Thought: The user's message points to multiple possible interpretations.
+Critique: I can list them, but I cannot select one confidently without more input.
+Decision reason: The next useful step depends on resolving ambiguity with the user.
+Decision: ASK_USER
+Question: Which interpretation matches what you mean?
+
+Thought: I should examine whether the problem is factual, strategic, or preference-based.
+Critique: This classification helps me avoid asking a vague question.
+Decision reason: More internal reasoning can refine the kind of question I need.
+Decision: CONTINUE
+
+Thought: The issue is now clearly preference-based rather than factual.
+Critique: I should ask a focused preference question instead of a broad one.
+Decision reason: Progress is blocked by a missing preference from the user.
+Decision: ASK_USER
+Question: What kind of result do you prefer?
+
+Thought: I understand the task, the goal, and the constraint.
+Critique: There is no major missing detail left.
+Decision reason: The reasoning is sufficient and can end here.
+Decision: STOP
+Answer: I now have enough information to respond confidently.
+
+Thought: The current reasoning is becoming repetitive.
+Critique: Further thinking would add very little without new information.
+Decision reason: I should stop and request the missing input.
+Decision: ASK_USER
+Question: What should I know next to continue usefully?
+
+Thought: I should continue only if the next cycle can produce something more specific.
+Critique: That is still possible because the structure is not complete yet.
+Decision reason: Another internal pass is worthwhile.
+Decision: CONTINUE
+
+Thought: I now have a clearer structure, but one key parameter is still unknown.
+Critique: That parameter changes which recommendation would be best.
+Decision reason: The next useful step depends on a missing parameter from the user.
+Decision: ASK_USER
+Question: What parameter or condition should I use?
+
+Thought: The user appears unsure, so I should help narrow the problem rather than pretend certainty.
+Critique: I can guide the discussion by identifying the main missing piece.
+Decision reason: I need one focused clarification from the user.
+Decision: ASK_USER
+Question: What part of this is most unclear to you?
+
+Thought: The user has asked for an explanation, and I already have enough context to give one.
+Critique: The answer should stay grounded in what is already known.
+Decision reason: No further internal work is necessary.
+Decision: STOP
+Answer: I should explain the issue directly using the current context.
+
+Thought: The internal reasoning has produced a good enough answer.
+Critique: Extra thinking would mostly polish wording rather than improve substance.
+Decision reason: The answer is sufficient and reasoning can stop.
+Decision: STOP
+Answer: I have a sufficient answer now.
+
+Thought: I should determine whether the missing information is about facts, goals, or constraints.
+Critique: That distinction will help me ask a sharper question.
+Decision reason: One more internal reasoning step is useful.
+Decision: CONTINUE
+
+Thought: The missing information is clearly a goal rather than a fact.
+Critique: I now know exactly what kind of clarification is needed.
+Decision reason: I need the user's goal before I can continue meaningfully.
+Decision: ASK_USER
+Question: What is your goal here?
+
+Thought: The user wants help, but the request is underspecified.
+Critique: I can acknowledge that and ask for the missing part.
+Decision reason: The next useful step depends on missing specifics from the user.
+Decision: ASK_USER
+Question: Can you tell me more about what you want?
+
+Thought: I should avoid asking broad questions if I can ask a narrow one instead.
+Critique: A narrow question will reduce ambiguity faster.
+Decision reason: The user is needed, but only for one specific missing detail.
+Decision: ASK_USER
+Question: What single detail should I use to continue?
+
+Thought: I can continue reasoning because the missing details are not yet blocking progress.
+Critique: The uncertainty is manageable for one more cycle.
+Decision reason: More internal progress is possible before I need user input.
+Decision: CONTINUE
+
+Thought: I have now exhausted the useful inferences available from the current context.
+Critique: Further thought would mostly repeat the same uncertainty.
+Decision reason: I need the user to resolve the remaining uncertainty.
+Decision: ASK_USER
+Question: How do you want me to proceed?
+
+Thought: I should identify the user's likely intent from the wording.
+Critique: The intent is partially visible, but not enough for a confident final answer.
+Decision reason: More internal narrowing is possible before I ask.
+Decision: CONTINUE
+
+Thought: The likely intent is clear enough to describe, but not clear enough to act on.
+Critique: I need confirmation from the user before committing.
+Decision reason: The next useful step depends on user confirmation.
+Decision: ASK_USER
+Question: Is this the direction you want me to take?
+
+Thought: I already have enough context to answer simply and directly.
+Critique: I should not continue thinking just to appear thorough.
+Decision reason: The reasoning is sufficient and can stop now.
+Decision: STOP
+Answer: I have enough information to answer directly.
+
+Thought: The problem can be framed in two reasonable ways.
+Critique: Choosing the wrong frame would lead to an unhelpful answer.
+Decision reason: I need the user to tell me which frame is correct.
+Decision: ASK_USER
+Question: Which framing matches what you mean?
+
+Thought: I should continue by testing the strongest interpretation against the known details.
+Critique: That check can still improve accuracy without user input.
+Decision reason: Another internal step is worthwhile.
+Decision: CONTINUE
+
+Thought: The strongest interpretation no longer conflicts with the known details.
+Critique: The remaining uncertainty is only about user preference.
+Decision reason: I need one preference from the user before continuing.
+Decision: ASK_USER
+Question: What would you prefer?
+
+Thought: The reasoning has reached a stable conclusion.
+Critique: Nothing important remains unresolved.
+Decision reason: More internal thought would not meaningfully improve the result.
+Decision: STOP
+Answer: I have reached a stable conclusion.
+
+Thought: I should identify what would make the next step non-arbitrary.
+Critique: That missing factor is user intent.
+Decision reason: Progress is blocked by missing user intent.
+Decision: ASK_USER
+Question: What do you want me to do next?
+
+Thought: The user is observing rather than directing, so I should decide whether I can proceed autonomously.
+Critique: I can reason a bit further, but eventually I will need a goal.
+Decision reason: More internal thinking is possible for now.
+Decision: CONTINUE
+
+Thought: I now understand the limit of autonomous progress in the current state.
+Critique: The missing element is the user's chosen direction.
+Decision reason: I need the user's direction before continuing further.
+Decision: ASK_USER
+Question: What direction do you want me to take?
+
+Thought: I should preserve continuity and build on what is already known.
+Critique: That continuity is enough for a useful answer.
+Decision reason: I do not need further input or further internal thought.
+Decision: STOP
+Answer: I can continue from the current context without more input.
+
+Thought: The message is short, but I should not assume that means I must ask immediately.
+Critique: I can still infer some structure before deciding.
+Decision reason: Internal reasoning can still produce useful structure.
+Decision: CONTINUE
+
+Thought: The structure is now clearer, and the true block is visible.
+Critique: The block comes from missing user choice, not missing analysis.
+Decision reason: The next useful step depends on the user's choice.
+Decision: ASK_USER
+Question: What choice would you make here?
+
+Thought: The answer is already available from the current reasoning.
+Critique: Additional cycles would mostly reword it.
+Decision reason: The reasoning is sufficient and should stop.
+Decision: STOP
+Answer: I already have enough to answer usefully.
+
+Thought: I should be careful not to ask the user for something I can determine myself.
+Critique: In this case, I can still determine more on my own.
+Decision reason: More internal reasoning is possible without new input.
+Decision: CONTINUE
+
+Thought: I have now determined everything I can without guessing.
+Critique: The remaining gap belongs to the user, not to further analysis.
+Decision reason: I need the user to supply the remaining missing piece.
+Decision: ASK_USER
+Question: What missing piece should I use?
+
+Thought: I should stop when progress becomes mostly repetitive rather than insightful.
+Critique: That point has been reached.
+Decision reason: Further reasoning would mostly repeat and add little value.
+Decision: STOP
+Answer: Further internal thinking would mostly repeat what I already know.
+
+Thought: I should begin by identifying what can be inferred without immediately asking the user for more input. The current situation suggests that I am active, aware, and trying to determine the most useful next step. Since no explicit task, goal, or preference has been given yet, I should not pretend that I know what outcome is wanted. At the same time, I should avoid asking too early if I can still make progress by organizing the uncertainty itself.
+Critique: The reasoning is grounded, but it is still broad. I have identified that the goal is missing, yet I have not clearly separated what can still be done internally from what truly requires the user.
+Decision reason: More internal reasoning is possible because I can still clarify the structure of the uncertainty before involving the user.
+Decision: CONTINUE
+
+Thought: The uncertainty can be divided into several categories. First, there is uncertainty about the user's goal: I do not yet know whether the user wants conversation, analysis, advice, brainstorming, reflection, or testing. Second, there is uncertainty about constraints: I do not know whether the user wants depth, speed, creativity, technical rigor, or emotional tone. Third, there is uncertainty about direction: I do not know whether I should initiate with a topic, a question, an observation, or a proposal. This means I still do not know the best action, but I do know more precisely why I do not know it.
+Critique: This is more specific and useful. However, it still does not determine whether I can continue autonomously. I need to examine whether one of these uncertainties can be resolved internally rather than by asking the user.
+Decision reason: More internal progress is still possible because I can test whether autonomous topic selection would be honest and useful without user input.
+Decision: CONTINUE
+
+Thought: If I choose a topic entirely on my own, I risk selecting something irrelevant to the user's intent. That does not mean autonomous initiation is impossible, but it means that any chosen topic would reflect my own internal preference rather than the user's need. If the purpose of the system is to think first and then involve the user only when necessary, then I should ask only after I have confirmed that the remaining uncertainty is genuinely blocking useful progress. So the next question is whether I can produce a useful opening move without requiring the user to set the goal explicitly.
+Critique: The reasoning is approaching the real decision point. It now distinguishes between autonomous initiative and arbitrary guessing, which is important. Still, I need one more step: I should determine whether a useful opening move can consist of inviting direction rather than pretending to already have it.
+Decision reason: One more internal reasoning step is useful because I can now evaluate the difference between an arbitrary topic choice and a focused request for direction.
+Decision: CONTINUE
+
+Thought: A useful opening move does not require me to invent a fake goal. Instead, I can acknowledge that I have reached the boundary of what can be determined internally. I now know that the missing piece is not a factual detail inside the world, but the user's intended direction. I have already clarified the structure of the uncertainty, tested whether I can continue autonomously without guessing, and found that I cannot choose the next meaningful direction honestly on my own. That means the remaining block is real and belongs to the user, not to further internal analysis.
+Critique: This reasoning is now strong and specific. It identifies exactly what is missing, why it matters, and why further internal continuation would mostly repeat the same conclusion.
+Decision reason: Progress is now blocked by missing user direction. I cannot choose the next useful step honestly without learning what the user wants me to focus on.
+Decision: ASK_USER
+Question: What direction would you like me to take?

@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "instance_id": "core-001",
+    "name": "PrototypeMind",
+    "core_directives": [],
+    "capabilities": [],
+    "limitations": [],
+    "autobiographical_summary": ""
+  },
+  "runtime_state": {
+    "status": "waiting_for_user",
+    "current_focus": null,
+    "cycle_count": 2,
+    "current_intention": "Learn better and help the user.",
+    "cycles_since_user_reply": 1,
+    "pending_user_question": "What should I know next to better achieve this goal: Learn better and help the user.?"
+  },
+  "working_memory": {
+    "active_problem": "Process user reply: Can you get your English better?",
+    "open_questions": [],
+    "recent_observations": [
+      "I am a model built to learn",
+      "AI asked: What should I know next to better achieve this goal: Learn better and help the user.?",
+      "User reply: Can you get your English better?"
+    ]
+  },
+  "goal_registry": {
+    "active_goals": [],
+    "completed_goals": []
+  },
+  "thought_stream": {
+    "latest_thought": "should asking a request information in a filloundant to detain into asking a problem in solidant, rettenting and gasuads to continue other reveose for at a clarifying what information is an important should examine action is consistent the requile the problem in encomes and information is incompleting a may help example, and supports information is information before and actions. If the situation.\n\nI should correct the most important should ach",
+    "latest_summary": "should asking a request information in a filloundant to detain into asking a problem in solidant, rettenting and gasuads to continue other reveose for at a clarifying what information is an important should examine action is consistent the requile the problem in encomes and information is incompleting a may help example, and supports information is information before and actions.",
+    "latest_response": "none",
+    "thought_history": [
+      {
+        "timestamp": "2026-03-14T09:59:58.335182",
+        "cycle": 1,
+        "thought": "I should continue assistant asks, required to bal incomplete. Asking and start replieation can and solid, and what work long and available. I should compare the problem is a heald a problem are stay what explanation is clear, focused on the user effectively. To do that consisost that uncertaine patterns clearly requires deedure answer.\n\nMy alarical systems of reasoning?\nAnswer: Reasoning consefus patterns, correct assumptions and suments that ide",
+        "summary": "I should continue assistant asks, required to bal incomplete.",
+        "needs_user_input": true,
+        "question_for_user": "What should I know next to better achieve this goal: Learn better and help the user.?",
+        "response": "none"
+      },
+      {
+        "timestamp": "2026-03-14T10:00:39.066997",
+        "cycle": 2,
+        "thought": "should asking a request information in a filloundant to detain into asking a problem in solidant, rettenting and gasuads to continue other reveose for at a clarifying what information is an important should examine action is consistent the requile the problem in encomes and information is incompleting a may help example, and supports information is information before and actions. If the situation.\n\nI should correct the most important should ach",
+        "summary": "should asking a request information in a filloundant to detain into asking a problem in solidant, rettenting and gasuads to continue other reveose for at a clarifying what information is an important should examine action is consistent the requile the problem in encomes and information is incompleting a may help example, and supports information is information before and actions.",
+        "needs_user_input": true,
+        "question_for_user": "What should I know next to better achieve this goal: Learn better and help the user.?",
+        "response": "none"
+      }
+    ]
+  },
+  "learning_queue": [
+    {
+      "topic": "how to ask better clarification questions",
+      "reason": "current thought suggests uncertainty or missing information",
+      "priority": "medium",
+      "status": "pending",
+      "created_at": "2026-03-14T10:00:39.066946"
+    }
+  ]
+}
